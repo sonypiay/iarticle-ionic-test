@@ -1,0 +1,19 @@
+<ion-header translucent>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>News</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{ getNews.title }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      {{ getNews.body }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>

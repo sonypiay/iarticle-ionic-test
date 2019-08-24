@@ -1,5 +1,7 @@
 {
   "name": "iarticle",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
